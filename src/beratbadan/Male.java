@@ -12,11 +12,11 @@ public class Male implements BeratBadan {
         bmi = (berat/(meter*meter));
         
         if (bmi<18.5){
-            System.out.println("(Kurus)");
+            System.out.println("(cungkring)");
         }else if (bmi<=22.9){
-            System.out.println("(Normal)");
+            System.out.println("(biasa aja)");
         }else if (bmi<24.9){
-            System.out.println("(Overweight)"); 
+            System.out.println("(gendut)"); 
         }else {
             System.out.println("(Obesitas)"); 
         }
